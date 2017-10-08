@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#########################################################################
+#####################################################################################################
 # mssqlserver-rhel.sh
 #
 # MS SQL Server 2017 Install Script
@@ -10,9 +10,9 @@
 #
 # Author    : Gregory Zuckerman
 # Created   : 8 Oct 2017
-# Github    : https://github.com/gregoryzuckerman/
+# Github    : https://github.com/gregoryzuckerman/mssqlserver-install-script/mssqlserver-rhel.sh
 #
-#########################################################################
+####################################################################################################
 
 clear
 
