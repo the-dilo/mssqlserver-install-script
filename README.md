@@ -1,14 +1,10 @@
 # Microsoft SQL Server BASH Script
-Bash script to install Microsoft SQL Server on Linux
 
-Files:
-
-mssqlserver-rhel.sh
-mssqlserver-ubuntu.sh
+Bash script to install Microsoft SQL Server on Linux.
 
 Usage:
 
-RHEL
+RHEL 7
 ```bash
 wget https://raw.githubusercontent.com/gregoryzuckerman/mssqlserver-install-script/master/mssqlserver-rhel.sh && chmod u+x mssqlserver-rhel.sh && sudo ./mssqlserver-rhel.sh
 
