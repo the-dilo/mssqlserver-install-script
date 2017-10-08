@@ -12,12 +12,16 @@ RHEL
 ```bash
 wget https://raw.githubusercontent.com/gregoryzuckerman/mssqlserver-install-script/master/mssqlserver-rhel.sh
 
+chmod u+x mssqlserver-rhel.sh
+
 sudo ./mssqlserver-rhel.sh
 ```
 
 Ubuntu
 ```bash
 wget https://raw.githubusercontent.com/gregoryzuckerman/mssqlserver-install-script/master/mssqlserver-ubuntu.sh
+
+chmod u+x mssqlserver-ubuntu.sh
 
 sudo ./mssqlserver-ubuntu.sh
 ```
