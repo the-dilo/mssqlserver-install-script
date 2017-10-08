@@ -10,12 +10,18 @@ Usage:
 
 RHEL
 ```bash
-wget https://github.com/gregoryzuckerman/mssqlserver-install-script/mssqlserver-rhel.sh
+wget https://github.com/gregoryzuckerman/mssqlserver-install-script
+
+cd mssqlserver-install-script
+
 sudo ./mssqlserver-rhel.sh
 ```
 
 Ubuntu
 ```bash
-https://github.com/gregoryzuckerman/mssqlserver-install-script/mssqlserver-ubuntu.sh
+wget https://github.com/gregoryzuckerman/mssqlserver-install-script
+
+cd mssqlserver-install-script
+
 sudo ./mssqlserver-ubuntu.sh
 ```
