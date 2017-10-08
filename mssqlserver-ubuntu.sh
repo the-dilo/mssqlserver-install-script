@@ -5,7 +5,7 @@
 #
 # Microsoft SQL Server 2017 Install Script
 #
-# A simple BASH script to install MS SQL Server from the Microsoft YUM repository.
+# A simple BASH script to install MS SQL Server from the Microsoft APT repository.
 #
 # Author    : Gregory Zuckerman
 # Created   : 8 Oct 2017
