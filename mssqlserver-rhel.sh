@@ -32,7 +32,7 @@ u|U )
  tput setaf 7;
    yum update mssql-server
     echo ""
-     echo -e "Upgrade Complete\n";;
+     echo -e "Check for upgrade complete\n";;
 
 n|N )
 
