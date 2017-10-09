@@ -18,14 +18,17 @@ clear
 tput setaf 4;
 echo ""
 echo -e "$(tput bold)Microsoft SQL Server 2017 Installer Script$(tput sgr 0)\n"
-echo "$(tput bold)Linux Version:    RHEL 7 Workstation/Server$(tput sgr 0)"
+echo    "$(tput bold)Linux Version:    RHEL 7 Workstation/Server$(tput sgr 0)"
 echo -e "$(tput bold)Script Version:   1.0$(tput sgr 0)\n"
   tput setaf 7;
 
-read -p "New or Upgrade of Microsoft SQL Server? (n/u): " install_type
+read -p "New install or Upgrade of Microsoft SQL Server 2017? (n/u): " install_type
 case "$install_type" in
 
-* )  echo "Invalid option.";;
+* )
+
+ echo ""
+  echo "Invalid option.";;
 
 u|U )
 
